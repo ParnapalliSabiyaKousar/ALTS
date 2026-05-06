@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#nav{
+    display: flex;
+    background-color: #1f1f1f;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons{
+    width: 20px;
+    padding: 10px;
+}
+.leftLink{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px;
+}
+.rightLink{
+     color: white;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px;
+    /* margin-bottom: 20px; */
+}
+#rightLink{
+    display: flex;
+}
+#right{
+    display: flex;
+}
+#space{
+    border-radius: 50%;
+    border: red solid 2px;
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+}
